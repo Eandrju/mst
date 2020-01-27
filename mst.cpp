@@ -42,7 +42,6 @@ int main(int argc, char **argv){
         e1 = end - start1;
         e2 = end - start2;
         cost = algorithm.ComputeCostOfMST();
-        //PrintGraphEdges(result);
 
         std::cout << "---------------\n";
         std::cout << "Prim Algorithm with Adjacency Matrix\n";
@@ -60,7 +59,6 @@ int main(int argc, char **argv){
         e1 = end - start1;
         e2 = end - start2;
         cost = algorithm2.ComputeCostOfMST();
-        //PrintGraphEdges(result);
 
         std::cout << "---------------\n";
         std::cout << "Prim Algorithm with Priority Queue - Binary Heap\n";
@@ -77,7 +75,6 @@ int main(int argc, char **argv){
         e1 = end - start1;
         e2 = end - start2;
         cost = algorithm3.ComputeCostOfMST();
-        //PrintGraphEdges(result);
 
         std::cout << "---------------\n";
         std::cout << "Prim Algorithm with Priority Queue - Fibonachi Heap\n";
@@ -95,7 +92,6 @@ int main(int argc, char **argv){
         e1 = end - start1;
         e2 = end - start2;
         cost = krus.ComputeCostOfMST();
-        //PrintGraphEdges(result);
 
         std::cout << "---------------\n";
         std::cout << "Kruskal Algorithm\n";
